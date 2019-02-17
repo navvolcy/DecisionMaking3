@@ -1,0 +1,22 @@
+#Nav L. Volcy
+#CS1400
+#Course: exercise 6 #3
+
+
+#assigning varibles
+age = input("type in age")
+age = int(age)
+
+yrs_citizen = input("type number of years")
+yrs_citizen = int(yrs_citizen)
+
+#runnin the if statement
+if age >= 30 and  yrs_citizen >= 9:
+    print("You are eligibile for Senate")
+else:
+    print("You are not eligibile for Senate")
+
+if age >= 25 and yrs_citizen >= 7:
+    print("You are eligibile for House of Representives")
+else:
+    print("You are not eligibile for House of Representives")
